@@ -13,3 +13,7 @@ USER $NB_USER
 RUN conda env update -n base --quiet -f environment.yml && \
     conda clean -tipsy && \
     fix-permissions $CONDA_DIR
+
+RUN  jupyter labextension install dask-labextension \
+        jupyterlab_bokeh @jupyterlab/hub-extension \
+        @jupyter-widgets/jupyterlab-manager

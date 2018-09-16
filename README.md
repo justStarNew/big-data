@@ -44,6 +44,7 @@ docker run --rm -d -v $HOME/big-data:/home/jovyan/ -p 8888:8888 -p 4040:4040 pna
   * [Parallel Data Analysis in Python](https://www.youtube.com/watch?v=a8gpcnmggiU), SciPy 2017 Tutorial by Matthew Rocklin, Ben Zaitlen & Aron Ahmadia.
   * [Parallel Python: Analyzing Large Datasets Intermediate](https://www.youtube.com/watch?v=5Md_sSsN51k), SciPy 2016 Tutorial by Matthew Rocklin.
   * [Getting Started with Apache Spark Tutorial - Databricks](https://databricks.com/product/getting-started-guide)
+  * [Parallelizing Scientific Python with Dask](https://www.youtube.com/watch?v=mqdglv9GnM8) SciPy 2018 Tutorial by James Crist and Martin Durant
 
 ### Blog posts
   * [Should you replace Hadoop with your laptop?](http://veekaybee.github.io) by Vicki Boykis.

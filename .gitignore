@@ -27,3 +27,4 @@ notebooks/test_stdin.py
 notebooks/words.py
 notebooks/mapper.py
 notebooks/reducer.py
+notebooks/metastore_db

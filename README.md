@@ -49,6 +49,7 @@ docker run --rm -d -v $HOME/big-data:/home/jovyan/ -p 8888:8888 -p 4040:4040 pna
   * [Hortonworks Data Tutorials](https://github.com/hortonworks/data-tutorials)
 
 ### Blog posts
+  * [Format Wars: From VHS and Beta to Avro and Parquet](http://www.svds.com/dataformats/)  overview of Hadoop File formats.
   * [Should you replace Hadoop with your laptop?](http://veekaybee.github.io) by Vicki Boykis.
   * [Implementing MapReduce with multiprocessing](https://pymotw.com/2/multiprocessing/mapreduce.html) by Doug Hellmann.
   * [Dask Release 0.19.0](http://matthewrocklin.com/blog/work/2018/09/05/dask-0.19.0) by Matthew Rocklin.

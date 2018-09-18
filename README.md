@@ -1,5 +1,3 @@
-<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
-
 # Python tools for Big Data
 
 Notebooks for [Master of Data Science Rennes](https://www.sites.univ-rennes2.fr/master-mas/index.html)
@@ -64,7 +62,6 @@ docker run --rm -d -v $HOME/big-data:/home/jovyan/ -p 8888:8888 -p 4040:4040 pna
   * [wikistat - Ateliers Big Data](https://github.com/wikistat/Ateliers-Big-Data) by Philippe Besse. 🇫🇷
   * [Data Science and Big Data with Python](https://github.com/phelps-sg/python-bigdata) by Steve Phelps.
 
-
-
-
 Pierre
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.

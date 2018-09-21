@@ -29,3 +29,4 @@ notebooks/mapper.py
 notebooks/reducer.py
 notebooks/metastore_db
 sparkmonitor_serverextension.log
+notebooks/nycflights

@@ -37,14 +37,19 @@ docker run --rm -d -v $HOME/big-data:/home/jovyan/ -p 8888:8888 -p 4040:4040 pna
   * [hdfs3](http://hdfs3.readthedocs.io/en/latest/)
 
 ### Tutorials
-  * [Analyzing and Manipulating Data with Pandas Beginner](https://youtu.be/6ohWS7J1hVA): SciPy 2016 Tutorial by Jonathan Rocher.
-  * [Parallelizing Scientific Python with Dask](https://youtu.be/mbfsog3e5DA), SciPy 2017 Tutorial by James Crist.
-  * [Writing an Hadoop MapReduce Program in Python](http://www.michael-noll.com/tutorials/writing-an-hadoop-mapreduce-program-in-python/) by Michael G. Noll.
-  * [Parallel Data Analysis in Python](https://www.youtube.com/watch?v=a8gpcnmggiU), SciPy 2017 Tutorial by Matthew Rocklin, Ben Zaitlen & Aron Ahmadia.
-  * [Parallel Python: Analyzing Large Datasets Intermediate](https://www.youtube.com/watch?v=5Md_sSsN51k), SciPy 2016 Tutorial by Matthew Rocklin.
-  * [Getting Started with Apache Spark Tutorial - Databricks](https://databricks.com/product/getting-started-guide)
-  * [Parallelizing Scientific Python with Dask](https://www.youtube.com/watch?v=mqdglv9GnM8) SciPy 2018 Tutorial by James Crist and Martin Durant
-  * [Hortonworks Data Tutorials](https://github.com/hortonworks/data-tutorials)
+  - Python
+  	* [Analyzing and Manipulating Data with Pandas Beginner](https://youtu.be/6ohWS7J1hVA): SciPy 2016 Tutorial by Jonathan Rocher.
+  - Dask
+        * [Parallel Data Analysis with Dask](https://github.com/TomAugspurger/dask-tutorial-pycon-2018)  Dask tutorial at PyCon 2018 by Tom Augspurger.
+  	* [Parallelizing Scientific Python with Dask](https://www.youtube.com/watch?v=mqdglv9GnM8) SciPy 2018 Tutorial by James Crist and Martin Durant
+  	* [Parallelizing Scientific Python with Dask](https://youtu.be/mbfsog3e5DA), SciPy 2017 Tutorial by James Crist.
+  	* [Parallel Python: Analyzing Large Datasets Intermediate](https://www.youtube.com/watch?v=5Md_sSsN51k), SciPy 2016 Tutorial by Matthew Rocklin.
+  	* [Parallel Data Analysis in Python](https://www.youtube.com/watch?v=a8gpcnmggiU), SciPy 2017 Tutorial by Matthew Rocklin, Ben Zaitlen & Aron Ahmadia.
+  - Hadoop
+  	* [Writing an Hadoop MapReduce Program in Python](http://www.michael-noll.com/tutorials/writing-an-hadoop-mapreduce-program-in-python/) by Michael G. Noll.
+  - Spark
+  	* [GetOting Started with Apache Spark Tutorial - Databricks](https://databricks.com/product/getting-started-guide)
+  	* [Hortonworks Data Tutorials](https://github.com/hortonworks/data-tutorials)
 
 ### Blog posts
   * [Don't use Hadoop - your data isn't that big](https://www.chrisstucchio.com/blog/2013/hadoop_hatred.html)

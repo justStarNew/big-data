@@ -53,7 +53,6 @@ docker run --rm -d -v $HOME/big-data:/home/jovyan/ -p 8888:8888 -p 4040:4040 pna
   * [Dask Release 0.19.0](http://matthewrocklin.com/blog/work/2018/09/05/dask-0.19.0) by Matthew Rocklin.
   * [Deploying Dask on YARN](https://jcrist.github.io/dask-on-yarn) by Jim Crist.
   * [Native Hadoop file system (HDFS) connectivity in Python](http://wesmckinney.com/blog/python-hdfs-interfaces/) by Wes McKinney.
-  * [Programming dirty-dive into the human genome (in python)](http://boscoh.com/programming/programming-dive-into-human-genome.html)
   * [Pandas on HDFS with Dask Dataframes](http://matthewrocklin.com/blog/work/2016/02/22/dask-distributed-part-2)
 
 

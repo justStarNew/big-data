@@ -34,7 +34,6 @@ docker run --rm -d -v $HOME/big-data:/home/jovyan/ -p 8888:8888 -p 4040:4040 pna
   * [GCSFS](http://gcsfs.readthedocs.io/en/latest/)
   * [Dask.distributed](https://distributed.readthedocs.io/en/latest/)
   * [fastparquet](https://fastparquet.readthedocs.io/en/latest/)
-  * [hdfs3](http://hdfs3.readthedocs.io/en/latest/)
 
 ### Tutorials
   - Python

@@ -30,3 +30,4 @@ notebooks/reducer.py
 notebooks/metastore_db
 sparkmonitor_serverextension.log
 notebooks/nycflights
+notebooks/dask-worker-space/

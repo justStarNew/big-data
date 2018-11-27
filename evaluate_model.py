@@ -11,6 +11,7 @@ from keras.layers import Dense
 from keras.wrappers.scikit_learn import KerasClassifier
 from keras.datasets import mnist
 from keras.utils import to_categorical
+from sklearn.model_selection import cross_val_score
 
 import numpy as np
 
@@ -30,37 +31,41 @@ print("MNIST dataset")
 x_train, x_test, y_train, y_test = prepare_mnist()
 print(x_train.shape, y_train.shape)
 
-input_layer = Dense(units=128, 
+def make_model():
+
+    input_layer = Dense(units=128, 
                     activation="relu", 
                     input_dim=x_train.shape[1])
 
-second_layer = Dense(units=128, 
+    second_layer = Dense(units=128, 
                     activation="relu", 
                     input_dim=x_train.shape[1])
 
-third_layer  = Dense(units=128, 
+    third_layer  = Dense(units=128, 
                     activation="relu", 
                     input_dim=x_train.shape[1])
 
-output_layer = Dense(units=y_train.shape[1], 
+    output_layer = Dense(units=y_train.shape[1], 
                     activation="softmax")
 
-model = Sequential()
-model.add(input_layer)
-model.add(second_layer)
-model.add(third_layer)
-model.add(output_layer)
+    model = Sequential()
+    model.add(input_layer)
+    model.add(second_layer)
+    model.add(third_layer)
+    model.add(output_layer)
 
-model.compile(optimizer="adam",
+    model.compile(optimizer="adam",
              loss="categorical_crossentropy",
              metrics=["accuracy"])
 
-model.fit(x_train, y_train, 
-          epochs=10, batch_size=256, 
-          verbose=2, validation_split=0.1)
+    return model
 
-y_pred = model.predict(x_train)
+model = KerasClassifier( build_fn = make_model, 
+          nb_epoch=10, batch_size=256 )
 
-print(confusion_matrix(y_train.argmax(axis=1), y_pred.argmax(axis=1)))
+accuracies = cross_val_score(estimator = model, X = x_train, y = y_train, cv = 10, n_jobs = -1)
 
-print(model.count_params())
+mean = accuracies.mean()
+variance = accuracies.var()
+
+print(f" mean = {mean}, variance = {variance} ")
